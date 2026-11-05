@@ -1,0 +1,16 @@
+// 8. Smart Home Temperature Control
+// Write a C++ program that takes the room temperature as input.
+// If the temperature exceeds 30C, display "Turn On the Cooling System".
+#include <iostream>
+using namespace std;
+
+int main() {
+    float temperature;
+    cout << "Enter room temperature: ";
+    cin >> temperature;
+
+    if (temperature > 30) {
+        cout << "Turn On the Cooling System";
+    }
+    return 0;
+}
