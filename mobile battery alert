@@ -1,0 +1,16 @@
+// 3. Mobile Battery Alert
+// Write a C++ program that takes the mobile battery percentage as input.
+// If the battery level is 15% or less, display "Low Battery! Please Charge Your Phone".
+#include <iostream>
+using namespace std;
+
+int main() {
+    int battery;
+    cout << "Enter battery percentage: ";
+    cin >> battery;
+
+    if (battery <= 15) {
+        cout << "Low Battery! Please Charge Your Phone";
+    }
+    return 0;
+}
