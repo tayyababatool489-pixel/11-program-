@@ -1,0 +1,19 @@
+// 6. Parking Fee Discount
+// Write a C++ program that takes the number of hours a vehicle has been parked and whether the driver has a valid student ID (1 for yes, 0 for no).
+// If the driver has a valid student ID and parks for at least 2 hours, display "Student Parking Discount Applicable".
+#include <iostream>
+using namespace std;
+
+int main() {
+    int hours;
+    int studentID;
+    cout << "Enter number of hours parked: ";
+    cin >> hours;
+    cout << "Do you have valid student ID? (1 for Yes, 0 for No): ";
+    cin >> studentID;
+
+    if (studentID == 1 && hours >= 2) {
+        cout << "Student Parking Discount Applicable";
+    }
+    return 0;
+}
