@@ -1,0 +1,19 @@
+// 1. Student Scholarship
+// Write a C++ program that takes a student's marks and attendance percentage as input.
+// If marks are 85 or above and attendance is at least 90%, display "Eligible for Scholarship".
+#include <iostream>
+using namespace std;
+
+int main() {
+    int marks;
+    float attendance;
+    cout << "Enter marks: ";
+    cin >> marks;
+    cout << "Enter attendance percentage: ";
+    cin >> attendance;
+
+    if (marks >= 85 && attendance >= 90) {
+        cout << "Eligible for Scholarship";
+    }
+    return 0;
+}
