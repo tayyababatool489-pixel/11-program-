@@ -1,0 +1,16 @@
+// 4. Library Book Fine
+// Write a C++ program that takes the number of overdue days as input.
+// If a book is returned after its due date, display "Late Return: Fine Applicable".
+#include <iostream>
+using namespace std;
+
+int main() {
+    int overdueDays;
+    cout << "Enter number of overdue days: ";
+    cin >> overdueDays;
+
+    if (overdueDays > 0) {
+        cout << "Late Return: Fine Applicable";
+    }
+    return 0;
+}
