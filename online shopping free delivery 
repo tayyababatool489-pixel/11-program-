@@ -1,0 +1,16 @@
+// 2. Online Shopping Free Delivery
+// Write a C++ program that takes the total shopping amount as input.
+// If the amount is Rs. 3000 or more, display "Congratulations! You Qualify for Free Delivery".
+#include <iostream>
+using namespace std;
+
+int main() {
+    int amount;
+    cout << "Enter total shopping amount: ";
+    cin >> amount;
+
+    if (amount >= 3000) {
+        cout << "Congratulations! You Qualify for Free Delivery";
+    }
+    return 0;
+}
