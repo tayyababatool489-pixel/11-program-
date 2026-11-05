@@ -1,0 +1,18 @@
+// 10. Road Speed Monitoring
+// Write a C++ program that takes a vehicle's speed and the speed limit as input.
+// If the vehicle's speed exceeds the speed limit, display "Speed Limit Violated".
+#include <iostream>
+using namespace std;
+
+int main() {
+    int speed, limit;
+    cout << "Enter vehicle speed: ";
+    cin >> speed;
+    cout << "Enter speed limit: ";
+    cin >> limit;
+
+    if (speed > limit) {
+        cout << "Speed Limit Violated";
+    }
+    return 0;
+}
