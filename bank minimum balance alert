@@ -1,0 +1,16 @@
+// 9. Bank Minimum Balance Alert
+// Write a C++ program that takes a bank account's current balance as input.
+// If the balance is below Rs. 5000, display "Minimum Balance Alert".
+#include <iostream>
+using namespace std;
+
+int main() {
+    int balance;
+    cout << "Enter current balance: ";
+    cin >> balance;
+
+    if (balance < 5000) {
+        cout << "Minimum Balance Alert";
+    }
+    return 0;
+}
